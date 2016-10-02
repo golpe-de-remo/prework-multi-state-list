@@ -36,6 +36,7 @@ git push origin THE_BRANCH_NAME
 ```
 
 How to pull branches:
+--------------------------
 Make sure you have commited all your work in your branch
 1.Go to master branch
 ```
