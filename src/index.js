@@ -16,24 +16,6 @@ require('bootstrap-material-design/dist/css/bootstrap-material-design.min.css');
 
 require('./index.css');
 
-var people = [
-  {
-    name: "Elliot",
-    state: STATE.TODO
-  },
-  {
-    name: "Juan",
-    state: STATE.TODO
-  },
-  {
-    name: "Lluc",
-    state: STATE.TODO
-  },
-  {
-    name: "Arslaan",
-    state: STATE.TODO
-  }];
-
 var App = React.createClass({
   getInitialState() {
     return {
@@ -85,6 +67,24 @@ var App = React.createClass({
     );
   }
 });
+
+var people = [
+  {
+    name: "Elliot",
+    state: STATE.TODO
+  },
+  {
+    name: "Juan",
+    state: STATE.TODO
+  },
+  {
+    name: "Lluc",
+    state: STATE.TODO
+  },
+  {
+    name: "Arslaan",
+    state: STATE.TODO
+  }];
 
 ReactDOM.render(
   <App people={people}/>,
